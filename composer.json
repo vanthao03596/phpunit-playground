@@ -1,0 +1,23 @@
+{
+    "name": "phamthao/test",
+    "authors": [
+        {
+            "name": "phamthao",
+            "email": "phamthao03596@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["define_coefficient.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
